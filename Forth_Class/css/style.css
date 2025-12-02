@@ -1,0 +1,41 @@
+#myNav {
+}
+
+#homeHeader {
+  background-color: tomato;
+  width: 100%;
+  height: 10vh;
+}
+
+#myNav ul,
+#myNav li {
+  list-style: none;
+  float: left;
+  margin: 5px 10px 5px 10px;
+}
+#myNav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+#myNav a:hover {
+  background-color: white;
+  color: rebeccapurple;
+}
+
+#visionTable,
+#visionTable tr,
+#visionTable td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.contactTable {
+  width: 100%;
+}
+.contactTable,
+.contactTable tr,
+.contactTable td {
+  border: 1px solid rgb(239, 251, 1);
+  border-collapse: collapse;
+}
