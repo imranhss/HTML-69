@@ -9,12 +9,15 @@
   <body>
     <header id="homeHeader">
       <nav id="myNav">
-        <ul>
-          <li style="margin-top: 0px !important">
-            <a href="index.html"
-              ><img src="images/git-removebg-preview.png" alt="git" width="40"
-            /></a>
-          </li>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/git-removebg-preview.png" alt="git" width="80"
+          /></a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="menu">
+          <li style="margin-top: 0px !important"></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="vision.html">Vision</a></li>
           <li><a href="gallery.html">Gallery</a></li>
@@ -23,6 +26,19 @@
       </nav>
     </header>
     <h1>Contact</h1>
+
+    <hr />
+    <dl>
+      <dt>JEE</dt>
+      <dd>- Core Java</dd>
+      <dd>- Advance Java</dd>
+      <dd>- JSp</dd>
+      <dt>Web Design</dt>
+      <dd>- HTML</dd>
+      <dd>- CSS</dd>
+      <dd>- JS</dd>
+    </dl>
+    <hr />
     <table class="contactTable">
       <tr>
         <td>AAA</td>
